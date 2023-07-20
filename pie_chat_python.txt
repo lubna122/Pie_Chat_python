@@ -1,0 +1,8 @@
+labels = ['Apple','Banana','Orange','Cherry']
+sizes = [20,30,50,60]
+colors = ['red','yellow','orange','blue']
+
+plt.pie(sizes,labels = labels, colors = colors,autopct = '%1.1f%%')
+plt.title('Fruit Quantity Chart')
+plt.axis('equal')
+plt.show()
